@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.google-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.display-flex{
+    display: flex;
+}
+.primary-btn{
+    color: white;
+    padding: 12px 40px 12px 16px;
+    background: linear-gradient(#F7E93F,#9100F8,#FB09B4);
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.navbar{
+    background-color: #1A0B2E;
+    border-bottom: 1px solid white;
+}
+.navbar-parent{
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+.navbar-logo h1{
+     color: white;
+     font-size: 2.5rem;
+     font-weight: 900;
+}
+.navbar-logo h1 span{
+     background: linear-gradient(#9100F8,#FB09B4);
+     -webkit-background-clip: text;
+     background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+.navbar-links ul{
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.navbar-links ul a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.btn-1 i{
+    padding-left: 6px;
+}
+.hambarger{
+    display: none;
+}
+.hambarger i{
+   color: white;
+   margin-right: 8px;
+   font-size: 30px;
+}
+
+@media screen and (max-width:576px) {
+     .navbar-btn{
+        display: none;
+     }
+     .hambarger{
+      display: inline;
+     }
+     .navbar-links{
+        display: none;
+     }
+     .navbar-parent{
+        padding: 20px 20px;
+     }
+     .navbar-logo h1{
+        font-size: 2rem;
+}
+}
