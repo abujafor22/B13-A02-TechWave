@@ -48,6 +48,21 @@
     top: 15px;
     right: -259px;
 }
+.bannar-new{
+     overflow: hidden; 
+    } 
+
+.bannar-new p{ 
+    white-space: nowrap; animation: moveText 1s linear infinite;
+}
+
+@keyframes moveText{
+     0% { transform: translateX(100%);
+     } 
+
+     100% { transform: translateX(-100%); 
+    } 
+ }
 .bannar-info{
     max-width: 550px;
     height: 168px;
