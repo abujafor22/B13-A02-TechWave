@@ -39,6 +39,7 @@
    font-size: 1rem;
    color: #FFFFFF;
    line-height: 24px;
+   font-weight: 200;
 }
 .watch-time{
    display: flex;

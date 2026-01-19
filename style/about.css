@@ -21,6 +21,7 @@
     font-size: 1rem;
     color: #FFFFFF;
     line-height: 30px;
+    font-weight: 200;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -47,6 +48,7 @@
 .about-card p{
     font-size: 1rem;
     color: #FFFFFF;
+    font-weight: 200;
 }
 @media screen and (max-width:576px) {
     .about-parent{

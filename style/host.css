@@ -1,0 +1,57 @@
+.host{
+    background-color: #1A0B2E;
+}
+.host-tittel{
+    text-align: center;
+}
+.host-tittel h1{
+   font-size: 3rem;
+   color: #ffff;
+   font-weight: 800;
+   margin-bottom: 40px;
+}
+.host-card{
+    background-color: #351165;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    gap: 24px;
+}
+.host-info h2{
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+.host-info p{
+    font-size: 1rem;
+    color: #FFFFFF;
+    line-height: 24px;
+    font-weight: 200;
+}
+.host-icon img{
+   max-width: 100%;
+   border: 1px solid rgba(128, 128, 128, 0.418);
+   padding: 12px;
+   border-radius: 50%;
+}
+.host-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 16px;
+    gap: 8px;
+}
+@media screen and (max-width:576px) {
+   .host-card{
+   flex-direction: column;
+   text-align: center;
+}
+.host-icon {
+   justify-content: center;
+   align-items: center;
+}
+.host-parent {
+    padding-top: 60px;
+}
+}
