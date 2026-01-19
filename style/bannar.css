@@ -1,0 +1,92 @@
+.bannar{
+    background-image: url('./hero-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 760px;
+}
+.bannar-parent{
+    justify-content: center;
+    align-items: center;
+}
+.bannar-child{
+      height: 558px;
+      text-align: center;
+      margin-top: 100px;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+}
+.bannar-mic img{
+    max-width: 100%;
+    position: absolute;
+    top: 84px;
+    left: 115px;
+}
+.bannar-mic{
+    position: relative;
+}
+.bannar-mic{
+    width: 350px;
+    height: 350px;
+    background-image: url('./hero-circle.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.bannar-new{
+    width: 75px;
+    height: 38px;
+    background-color: #00FF88;
+    border-radius: 35px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15px;
+    right: -259px;
+}
+.bannar-info{
+    max-width: 550px;
+    height: 168px;
+    margin-top: 40px;
+}
+.bannar-info h1{
+    color: #FFFFFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.bannar-info p{
+   color: #FFFFFF;
+   font-size: 1rem;
+   font-weight: 400;
+   padding-top: 8px;
+}
+.bannar-btn{
+    padding-top: 24px;
+}
+.btn-3{
+    background-color: transparent;
+    color: #00FF88;
+    padding: 12px 16px 12px 20px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid #00FF88;
+    margin-left: 8px;
+}
+.btn-3 i{
+    margin-right: 10px;
+}
+.btn-3:hover{
+    background-color: #00FF88;
+    color: white;
+    transition: 1s;
+}
+@media screen and (max-width:576px) {
+      .bannar{
+        background-size: 100% 100%;
+   
+}
+}
