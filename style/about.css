@@ -9,6 +9,7 @@
 }
 .about-info{
     padding-top: 50px;
+    margin-bottom: 160px;
 }
 .about-info h1{
     font-size: 3rem;
@@ -30,7 +31,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
-    margin-top: 160px;
+    padding-bottom: 120px;
     gap: 80px;
 }
 .about-card{
@@ -53,7 +54,6 @@
     }
     .about-exp{
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 50px;
     }
     .about-info h1{
     font-size: 2.5rem;

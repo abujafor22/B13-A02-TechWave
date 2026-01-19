@@ -42,7 +42,7 @@
      font-weight: 900;
 }
 .navbar-logo h1 span{
-     background: linear-gradient(#9100F8,#FB09B4);
+     background: linear-gradient( #9100F8,#FB09B4, #F7E93F);
      -webkit-background-clip: text;
      background-clip: text;
      -webkit-text-fill-color: transparent;
