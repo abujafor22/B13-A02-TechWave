@@ -14,12 +14,12 @@
   display: grid;
   gap: 30px;
   grid-template-areas:
-  
   "one two two"
   "one three three"
   "four four five"
   ;
   margin-top: 40px;
+  padding-bottom: 120px;
 }
 .card{
     background-color: #351165;
@@ -31,6 +31,18 @@
     align-items: start;
     justify-content: center;
     padding: 30px;
+}
+.card h1{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-weight: 800;
+    margin-top: 21px;
+}
+.card p{
+    font-size: 1rem;
+    color: #FFFFFF;
+    line-height: 30px;
+    margin-top: 16px;
 }
 .card img{
     max-width: 100%;
@@ -49,4 +61,19 @@
 }
 .five{
      grid-area: five;
+}
+
+
+
+@media screen and (max-width:576px) {
+  .tech-card{
+    display: block;
+  }
+  .card{
+    margin-bottom: 16px;
+  }
+  .tec-tittel h1{
+  font-size: 2rem;
+}
+
 }
