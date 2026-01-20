@@ -28,6 +28,10 @@
 .about-p{
    padding-top: 30px;
 }
+.hr{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.212);
+    margin-top: 50px;
+}
 .about-exp{
     display: grid;
     grid-template-columns: repeat(4, 1fr);

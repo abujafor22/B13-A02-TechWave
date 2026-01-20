@@ -46,20 +46,23 @@
     position: relative;
     top: 15px;
     right: -259px;
+    box-shadow: 0 4px 8px 0 rgba(81, 255, 0, 0.2), 0 6px 20px 0 rgba(21, 255, 0, 0.19);
 }
 .bannar-new{
      overflow: hidden; 
     } 
 
 .bannar-new p{ 
-    white-space: nowrap; animation: moveText 1s linear infinite;
+    animation: moveText 2s linear infinite;
 }
 
 @keyframes moveText{
      0% { transform: translateX(100%);
+        color: #ff00b3;
      } 
 
      100% { transform: translateX(-100%); 
+        color: #9500ff;
     } 
  }
 .bannar-info{
